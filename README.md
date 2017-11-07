@@ -1,3 +1,16 @@
+# memo
+AOTじゃなくてJITを使ったバージョン。
+
+
+html を直す。
+
+次のようなコマンドで languageファイルを作る。
+```
+npm run i18n -- --i18nFormat=xlf  --outFile=src/locale/messages.en.xlf
+```
+
+main.tsでlanguageを指定する。
+
 # StudyAngularI18n
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
